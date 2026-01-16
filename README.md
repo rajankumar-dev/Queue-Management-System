@@ -22,9 +22,12 @@ This project demonstrates core React concepts like state management, component-b
 ![Queue Management System UI](https://github.com/rajankumar-dev/Queue-Management-System/blob/main/public/image.png?raw=true)
 
 ---
+## 🌐 Live Demo
+
+🔗 https://queue-management-system.vercel.app
 
 ## 🛠️ Tech Stack
-
+---
 - **React**
 - **JavaScript (ES6+)**
 - **useState Hook**
