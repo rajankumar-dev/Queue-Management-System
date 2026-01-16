@@ -1,16 +1,148 @@
-# React + Vite
+# 🧾 Queue Management System (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **Queue Management System** built using **React** and **useState** only.
+This project demonstrates core React concepts like state management, component-based architecture, and user interactions without using Redux, Context API, or any backend.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- ➕ Add people/items to the queue
+- ➖ Remove people/items from the queue (FIFO logic)
+- 🔄 Update queue status (Pending / Completed)
+- 📋 Display live queue list
+- ⚡ Instant UI updates using React `useState`
+- 🧠 Beginner-friendly logic (No external state libraries)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React**
+- **JavaScript (ES6+)**
+- **useState Hook**
+- **HTML5**
+- **CSS3**
+
+> ❌ No Redux
+> ❌ No Context API
+> ❌ No Backend / Database
+
+---
+
+## 📂 Project Structure
+
+```
+queue-management-system/
+│
+├── src/
+│   ├── components/
+│   │   ├── QueueDisplay.jsx
+│   │   ├── QueueForm.jsx
+│   │   └── QueueItem.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── public/
+│
+├── package.json
+└── README.md
+```
+
+---
+
+## 🧩 Core Concept Used
+
+### React `useState`
+
+- Queue data is stored in a state array
+- Each operation (add, remove, update) updates state
+- React automatically re-renders UI
+
+Example:
+
+```js
+const [queue, setQueue] = useState([]);
+```
+
+---
+
+## ⚙️ How It Works
+
+1. User enters name/details
+2. Click **Add to Queue**
+3. Item is added to the queue list
+4. Queue follows **FIFO (First In First Out)**
+5. Status can be updated using buttons
+6. UI updates instantly
+
+---
+
+## ▶️ How to Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/queue-management-system.git
+
+# Go to project folder
+cd queue-management-system
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+Open browser at:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 📸 Screenshots (Optional)
+
+_Add screenshots of your UI here_
+
+---
+
+## 🎯 Learning Outcomes
+
+- Understanding React components
+- State management using `useState`
+- Props and event handling
+- Error handling (undefined props issue solved)
+- Clean project structure
+
+---
+
+## 📌 Future Enhancements
+
+- ⏱ Queue timer
+- 🔔 Notification sound
+- 💾 LocalStorage support
+- 🎨 Better UI styling
+- 🔐 Authentication (future)
+
+---
+
+## 👨‍💻 Author
+
+**Rajan Kumar**
+Frontend Developer | React Learner
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
+
+---
+
+## 📄 License
+
+This project is open-source and available under the **MIT License**.
