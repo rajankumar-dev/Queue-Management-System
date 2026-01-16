@@ -102,7 +102,7 @@ http://localhost:5173
 
 ## 📸 Screenshots (Optional)
 
-![Queue Management System UI](image.png)
+![Queue Management System UI](https://github.com/rajankumar-dev/Queue-Management-System/blob/main/public/image.png?raw=true)
 
 ---
 
