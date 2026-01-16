@@ -14,7 +14,6 @@ This project demonstrates core React concepts like state management, component-b
 - ⚡ Instant UI updates using React `useState`
 - 🧠 Beginner-friendly logic (No external state libraries)
 
----
 
 ---
 
