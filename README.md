@@ -24,10 +24,6 @@ This project demonstrates core React concepts like state management, component-b
 - **HTML5**
 - **CSS3**
 
-> ❌ No Redux
-> ❌ No Context API
-> ❌ No Backend / Database
-
 ---
 
 ## 📂 Project Structure
@@ -39,7 +35,7 @@ queue-management-system/
 │   ├── components/
 │   │   ├── QueueDisplay.jsx
 │   │   ├── QueueForm.jsx
-│   │   └── QueueItem.jsx
+│   │
 │   │
 │   ├── App.jsx
 │   ├── main.jsx
@@ -84,7 +80,7 @@ const [queue, setQueue] = useState([]);
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/queue-management-system.git
+git clone https://github.com/rajankumar-dev/Queue-Management-System.git
 
 # Go to project folder
 cd queue-management-system
@@ -106,7 +102,7 @@ http://localhost:5173
 
 ## 📸 Screenshots (Optional)
 
-_Add screenshots of your UI here_
+![Queue Management System UI](image.png)
 
 ---
 
@@ -133,7 +129,7 @@ _Add screenshots of your UI here_
 ## 👨‍💻 Author
 
 **Rajan Kumar**
-Frontend Developer | React Learner
+Full Stack Developer | React Learner
 
 ---
 
