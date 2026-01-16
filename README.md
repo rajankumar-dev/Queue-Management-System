@@ -16,6 +16,14 @@ This project demonstrates core React concepts like state management, component-b
 
 ---
 
+---
+
+## 📸 Screenshots (Optional)
+
+![Queue Management System UI](https://github.com/rajankumar-dev/Queue-Management-System/blob/main/public/image.png?raw=true)
+
+---
+
 ## 🛠️ Tech Stack
 
 - **React**
@@ -98,13 +106,6 @@ Open browser at:
 http://localhost:5173
 ```
 
----
-
-## 📸 Screenshots (Optional)
-
-![Queue Management System UI](https://github.com/rajankumar-dev/Queue-Management-System/blob/main/public/image.png?raw=true)
-
----
 
 ## 🎯 Learning Outcomes
 
