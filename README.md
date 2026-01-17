@@ -24,7 +24,7 @@ This project demonstrates core React concepts like state management, component-b
 ---
 ## 🌐 Live Demo
 
-🔗 ![Go Live](https://queue-mngment-system.netlify.app/)
+🔗 [Go Live](https://queue-mngment-system.netlify.app/)
 
 ## 🛠️ Tech Stack
 ---
