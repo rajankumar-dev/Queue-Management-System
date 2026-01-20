@@ -10,8 +10,8 @@ This project demonstrates core React concepts like state management, component-b
 - ➕ Add people/items to the queue
 - ➖ Remove people/items from the queue (FIFO logic)
 - 🔄 Update queue status (Pending / Completed)
-- 📋 Display live queue list
 - ⚡ Instant UI updates using React `useState`
+- 📋 Display live queue list
 - 🧠 Beginner-friendly logic (No external state libraries)
 
 
@@ -114,8 +114,9 @@ http://localhost:5173
 - Understanding React components
 - State management using `useState`
 - Props and event handling
-- Error handling (undefined props issue solved)
 - Clean project structure
+- Error handling (undefined props issue solved)
+
 
 ---
 
